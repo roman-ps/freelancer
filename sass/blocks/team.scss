@@ -1,0 +1,51 @@
+.team-title {
+  font-family: $font-montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+}
+
+.team-title__dot {
+  color: $color-dot;
+}
+
+.team-subtitle {
+  font-family: $font-opensans;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9aa0ab;
+}
+
+.team-item {
+  font-family: $font-opensans;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.team-name {
+  font-family: $font-montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: -.02em;
+  color: #314a5b;
+  text-transform: uppercase;
+}
+
+.team-position {
+  color: #f0454c;
+}
+
+.team-character {
+  color: #9aa0ab;
+}
+
+.team-readmore {
+  font-family: $font-montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f0454c;
+  text-transform: uppercase;
+}

@@ -1,0 +1,35 @@
+.portfolio {
+  font-family: $font-montserrat;
+}
+
+.portfolio-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-transform: uppercase;
+  letter-spacing: -.04em;
+}
+
+.portfolio-title__dot {
+  color: $color-dot;
+}
+
+.portfolio-subtitle {
+  font-family: $font-opensans;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.portfolio-text {
+  font-family: $font-opensans;
+  font-size: 15px;
+  line-height: 22px;
+  color: #9aa0ab;
+}
+
+.portfolio-readmore {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fa5c65;
+  text-transform: uppercase;
+}

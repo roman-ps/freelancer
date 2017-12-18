@@ -1,0 +1,28 @@
+.about {
+  font-family: $font-montserrat;
+}
+
+.about-item__title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.about-item__title-dot {
+  color: $color-dot;
+}
+
+.about-item__text {
+  font-family: $font-opensans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #9aa0ab;
+}
+
+.sbout-item__readmore {
+  font-size: 14px;
+  line-height: 20px;
+  color: #f0454c;
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  url: src("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    src("../fonts/OpenSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: normal;
+  url: src("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    src("../fonts/OpenSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Domine";
+  font-weight: 700;
+  font-style: normal;
+  url: src("../fonts/DomineBold.woff2") format("woff2"),
+    src("../fonts/DomineBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  url: src("../fonts/MontserratRegular.woff2") format("woff2"),
+    src("../fonts/MontserratRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  url: src("../fonts/MontserratBold.woff2") format("woff2"),
+    src("../fonts/MontserratBold.woff") format("woff");
+}
