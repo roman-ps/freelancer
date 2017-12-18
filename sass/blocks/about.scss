@@ -1,11 +1,23 @@
 .about {
+  padding: 73px 0 125px 0;
   font-family: $font-montserrat;
 }
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-item {
+  width: 300px;
+}
+
 .about-item__title {
+  width: 220px;
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
+  text-transform: uppercase;
 }
 
 .about-item__title-dot {
@@ -13,6 +25,7 @@
 }
 
 .about-item__text {
+  width: 265px;
   font-family: $font-opensans;
   font-size: 15px;
   font-weight: 400;

@@ -1,4 +1,9 @@
+.team {
+  padding-top: 90px;
+}
+
 .team-title {
+  margin-bottom: 17px;
   font-family: $font-montserrat;
   font-size: 32px;
   font-weight: 700;
@@ -12,16 +17,34 @@
 }
 
 .team-subtitle {
+  margin-bottom: 36px;
   font-family: $font-opensans;
   font-size: 16px;
   line-height: 20px;
   color: #9aa0ab;
 }
 
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+
 .team-item {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
   font-family: $font-opensans;
   font-size: 14px;
   line-height: 20px;
+}
+
+.team-img {
+  display: block;
+}
+
+.team-item__container {
+  width: 160px;
 }
 
 .team-name {
@@ -43,6 +66,9 @@
 }
 
 .team-readmore {
+  display: block;
+  width: 64px;
+  margin: 0 0 0 auto;
   font-family: $font-montserrat;
   font-size: 14px;
   line-height: 20px;

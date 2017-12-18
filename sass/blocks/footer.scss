@@ -1,4 +1,6 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
   font-family: $font-opensans;
   font-size: 13px;
   line-height: 60px;
@@ -6,5 +8,7 @@
 }
 
 .footer-social {
+  width: 140px;
   font-size: 0;
+  outline: red 1px solid;
 }
