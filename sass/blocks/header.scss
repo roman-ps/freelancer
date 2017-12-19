@@ -1,22 +1,24 @@
 .header {
   background: #ffffff url("../img/header-bg.jpg") no-repeat;
+  background-position: 50% 0;
+  
   font-family: $font-montserrat;
 }
 
 .header-top {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 280px;
+  margin-bottom: 297px;
 }
 
 .header-logo {
+  margin: 0 auto 0 0;
   display: inline-block;
-  padding: 33px 13px 15px 14px;
-  border-radius: 0 0 5px 5px;
+  padding: 41px 12px 10px 18px;
+  border-radius: 0 0 6px 6px;
   background: #fa5c65;
   font-family: $font-domine;
   font-size: 20px;
-//  line-height: 64px;
   color: #ffffff;
 }
 
@@ -26,18 +28,20 @@
 
 .header-menu {
   display: flex;
-  width: 380px;
+  width: 398px;
   justify-content: space-between;
   list-style: none;
-//  font-size: 14px;
   font-weight: 400;
-//  line-height: 85px;
   text-transform: uppercase;
 }
 
 .header-menu__item {
-//  display: inline-block;
   font-size: 0;
+  padding-top: 8px;
+  
+  &:last-child {
+    padding-right: 30px;
+  }
 }
 
 .header-menu__link {
@@ -45,7 +49,9 @@
 }
 
 .header-social {
-  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 51px;
   outline: red 1px solid;
   font-size: 0;
 }
@@ -55,11 +61,14 @@
 }
 
 .header-title {
-  width: 520px;
+  width: 530px;
+  margin-bottom: -13px;
+  padding-left: 4px;
   font-family: $font-montserrat;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 53px;
+  color: #314a5b;
   letter-spacing: -.04em;
   text-transform: uppercase;
 }
@@ -69,6 +78,8 @@
 }
 
 .header-subtitle {
+  padding-left: 5px;
+  margin-bottom: 32px;
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
@@ -77,8 +88,9 @@
 .header-readmore {
   display: inline-block;
   margin-bottom: 383px;
-  padding: 20px 47px 19px 41px;
-  border-radius: 5px;
+  margin-left: 3px;
+  padding: 8px 42px 8px 42px;
+  border-radius: 6px;
   background: #fa5c65;
   color: #ffffff;
   font-size: 15px;

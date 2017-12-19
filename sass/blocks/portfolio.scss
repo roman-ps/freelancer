@@ -1,16 +1,16 @@
 .portfolio {
   background: #ffffff url("../img/portfolio-bg.jpg") no-repeat;
-  background-position: 0 30%;
+  background-position: 1% 19%;
   font-family: $font-montserrat;
 }
 
 .portfolio-container {
   margin-left: 480px;
-  padding-top: 13px;
+  padding: 11px 0 0 3px;
 }
 
 .portfolio-title {
-  margin-top: 0;
+  margin-bottom: 6px;
   font-size: 40px;
   font-weight: 700;
   line-height: 46px;
@@ -23,12 +23,14 @@
 }
 
 .portfolio-subtitle {
+  margin-bottom: 23px;
   font-family: $font-opensans;
   font-size: 16px;
   line-height: 20px;
 }
 
 .portfolio-text {
+  margin-bottom: 23px;
   width: 370px;
   font-family: $font-opensans;
   font-size: 15px;
@@ -38,7 +40,7 @@
 
 .portfolio-readmore {
   display: inline-block;
-  margin: 28px 0 30px 0;
+  margin: 15px 0 30px 0;
   font-size: 14px;
   line-height: 20px;
   color: #fa5c65;

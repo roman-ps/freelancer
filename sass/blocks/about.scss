@@ -1,5 +1,5 @@
 .about {
-  padding: 73px 0 125px 0;
+  padding: 57px 0 66px 0;
   font-family: $font-montserrat;
 }
 
@@ -10,10 +10,12 @@
 
 .about-item {
   width: 300px;
+  padding-left: 3px;
 }
 
 .about-item__title {
   width: 220px;
+  margin-bottom: 17px;
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
@@ -25,6 +27,7 @@
 }
 
 .about-item__text {
+  margin-bottom: 23px;
   width: 265px;
   font-family: $font-opensans;
   font-size: 15px;
