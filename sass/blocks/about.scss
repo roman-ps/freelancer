@@ -37,6 +37,7 @@
 }
 
 .about-item__readmore {
+  position: relative;
   font-size: 14px;
   line-height: 20px;
   color: #f0454c;
@@ -49,4 +50,13 @@
   &:active {
     opacity: .5;
   }
+}
+
+.about-item__readmore::after {
+  @include pseudo;
+  width: 12px;
+  height: 9px;
+  background-position: -226px -10px;
+  top: 5px;
+  right: -19px;
 }

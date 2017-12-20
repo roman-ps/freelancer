@@ -1,0 +1,6 @@
+@mixin pseudo {
+  display: block;
+  position: absolute;
+  content: '';
+  background-image: url("../img/sprite.png");
+}

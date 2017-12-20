@@ -39,6 +39,7 @@
 }
 
 .portfolio-readmore {
+  position: relative;
   display: inline-block;
   margin: 15px 0 30px 0;
   font-size: 14px;
@@ -53,4 +54,13 @@
   &:active {
     opacity: .5;
   }
+}
+
+.portfolio-readmore::after {
+  @include pseudo;
+  width: 12px;
+  height: 9px;
+  background-position: -226px -10px;
+  top: 5px;
+  right: -19px;
 }

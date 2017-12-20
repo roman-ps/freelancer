@@ -1,5 +1,5 @@
 .team {
-  padding: 59px 0 0 0;
+  padding: 59px 0 62px 0;
   border-bottom: 1px #e6eaed solid;
 }
 
@@ -88,6 +88,7 @@
 }
 
 .team-readmore {
+  position: relative;
   display: block;
   width: 60px;
   margin: 0 0 0 auto;
@@ -104,4 +105,13 @@
   &:active {
     opacity: .5;
   }
+}
+
+.team-readmore::after {
+  @include pseudo;
+  width: 12px;
+  height: 9px;
+  background-position: -226px -10px;
+  top: 5px;
+  right: -5px;
 }

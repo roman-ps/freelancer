@@ -1,5 +1,5 @@
 .footer {
-  padding: 67px 0 0 0;
+  padding: 5px 0 0 0;
   display: flex;
   justify-content: space-between;
   font-family: $font-opensans;
@@ -13,5 +13,48 @@
   justify-content: space-between;
   width: 140px;
   font-size: 0;
-  outline: red 1px solid;
+}
+
+.footer-social__item {
+  display: block;
+  position: relative;
+}
+
+.footer-social__item--twitter::before,
+.footer-social__item--instagram::before, 
+.footer-social__item--facebook::before,
+.footer-social__item--google::before {
+  @include pseudo;
+}
+
+.footer-social__item--twitter::before {
+  width: 20px;
+  height: 16px;
+  background-position: -116px -10px;
+  top: 24px;
+  left: 4px;
+}
+
+.footer-social__item--instagram::before {
+  width: 18px;
+  height: 18px;
+  background-position: -78px -10px;
+  top: 22px;
+  left: 3px;
+}
+
+.footer-social__item--facebook::before {
+  width: 10px;
+  height: 18px;
+  background-position: -10px -10px;
+  top: 23px;
+  right: -3px;
+}
+
+.footer-social__item--google::before {
+  width: 18px;
+  height: 18px;
+  background-position: -40px -10px;
+  top: 24px;
+  right: 4px;
 }
