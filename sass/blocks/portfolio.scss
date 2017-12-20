@@ -45,4 +45,12 @@
   line-height: 20px;
   color: #fa5c65;
   text-transform: uppercase;
+  
+  &:hover {
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }

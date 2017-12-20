@@ -42,6 +42,22 @@
 
 .team-img {
   display: block;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.team-img:hover ~ .team-item__container .team-name {
+  color: #f0454c;
+}
+
+.team-img:hover ~ .team-item__container .team-position {
+  color: #000000;
+}
+
+.team-img:hover ~ .team-item__container .team-character {
+  opacity: .5;
 }
 
 .team-item__container {
@@ -80,4 +96,12 @@
   line-height: 20px;
   color: #f0454c;
   text-transform: uppercase;
+  
+  &:hover {
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }

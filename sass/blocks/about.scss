@@ -36,9 +36,17 @@
   color: #9aa0ab;
 }
 
-.sbout-item__readmore {
+.about-item__readmore {
   font-size: 14px;
   line-height: 20px;
   color: #f0454c;
   text-transform: uppercase;
+  
+  &:hover {
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
