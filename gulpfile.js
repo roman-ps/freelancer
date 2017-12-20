@@ -17,6 +17,9 @@ gulp.task('styles', function() {
   .pipe(sass())
   .pipe(autoprefixer({ browsers: ['last 4 versions'] }))
   .pipe(gulp.dest('css'))
+  .pipe(minify())
+  .pipe(rename('style.min.css'))
+  .pipe(gulp.dest('css'))
   .pipe(reload({stream: true}));
 });
 
@@ -36,9 +39,7 @@ gulp.task('tinypng', function() {
 });
 
 gulp.task('css', function() {
-  gulp.src('css/style.css')
-//  .pipe(minify())
-//  .pipe(rename('style.min.css'))
+  gulp.src('css/*.css')
   .pipe(gulp.dest('build/css'));
 })
 
