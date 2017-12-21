@@ -77,6 +77,24 @@
 .header-social__item {
   position: relative;
   display: block;
+  
+  &:hover {
+    opacity: .6;
+  }
+  
+  &:active {
+    opacity: .2;
+  }
+}
+
+.header-social__item--twitter {
+  width: 20px;
+  height: 16px;
+}
+
+.header-social__item--facebook {
+  width: 10px;
+  height: 18px;
 }
 
 .header-social__item--twitter::before {

@@ -18,7 +18,36 @@
 .footer-social__item {
   display: block;
   position: relative;
+  
+  &:hover {
+    opacity: .7;
+  }
+  
+  &:active {
+    opacity: .3;
+  }
 }
+
+.footer-social__item--twitter {
+  width: 20px;
+  height: 16px;
+}
+
+.footer-social__item--instagram {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-social__item--facebook {
+  width: 10px;
+  height: 18px;
+}
+
+.footer-social__item--google {
+  width: 18px;
+  height: 18px;
+}
+
 
 .footer-social__item--twitter::before,
 .footer-social__item--instagram::before, 
@@ -48,7 +77,7 @@
   height: 18px;
   background-position: -10px -10px;
   top: 23px;
-  right: -3px;
+  right: -1px;
 }
 
 .footer-social__item--google::before {
